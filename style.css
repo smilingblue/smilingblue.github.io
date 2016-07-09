@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: cursive;;
+  color: #222;
+  background: #f7f5f0;
+}
+header{
+  text-align: center;
+  background: url('9PDbRsp.png') no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+.profile-image{
+  height: 340px;
+  margin-top: 110px;
+  width: auto;
+  margin-left: 70px;
+  position:relative;;
+  border-radius: 50%;
+  transform: rotate(90deg);
+  border: 3px solide white;
+}
+.nametag{
+  background-color: #efefef;
+  color:red;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+  font-size: 80px;
+}
+.card{
+  margin: 20px auto;
+  padding: 20px 40px;
+  max-width: 500px;
+  background: orange;
+}
+.card-header{
+  text-align: center;
+
+}
