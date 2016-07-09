@@ -10,10 +10,10 @@ body{
 }
 header{
   text-align: center;
-  background: url('9PDbRsp.png') no-repeat top center;
+  background: url('img/9PDbRsp.png') no-repeat top center;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 0px;
 }
 .profile-image{
   height: 340px;
@@ -22,7 +22,7 @@ header{
   margin-left: 70px;
   position:relative;;
   border-radius: 50%;
-  transform: rotate(90deg);
+  transform: rotate(84deg);
   border: 3px solide white;
 }
 .nametag{
@@ -43,4 +43,16 @@ header{
 .card-header{
   text-align: center;
 
+}
+.slideshow-container {
+  width: 400px;
+  margin: 0 auto;
+
+}
+.slide {
+  position: absolute;
+  transition: opacity .5s ease-in;
+}
+img+img{
+  opacity: 0;
 }
